@@ -1,8 +1,5 @@
-#include <iostream>
 #include <Windows.h>
 #include <vector>
-
-using namespace std;
 
 void LeftClick ( );
 void MouseMove ( int x, int y );
@@ -14,8 +11,6 @@ void E_KEY();
 
 
 int main(){
-    cout << "NUMPAD 0: RESET ALL" <<  endl;
-    cout << "KEY Z: " << endl;
     while(true){
         if(GetAsyncKeyState(VK_NUMPAD0)){
             return 0;
