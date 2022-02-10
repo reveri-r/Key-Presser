@@ -4,51 +4,28 @@
 
 void LeftClick ( );
 void MouseMove ( int x, int y );
-void Q_KEY();
 void RightClick ( );
+
+void Q_KEY();
 void D_KEY();
 void A_KEY();
+
 void one_KEY();
-void EMPTY_KEY();
-void UC_KEY();
 void iki_KEY();
-void OLTA_KEY();
+void uc_KEY();
+void four_KEY();
+
+void EMPTY_KEY();
 
 int main(){
 
     while(true){
     //  TRIGGER  F
         if(GetAsyncKeyState(0X46)){
-      
-            Sleep(71);
-           one_KEY();
-           LeftClick();
-          
+
         }
 
-//trigger G
-          if(GetAsyncKeyState(0X47)){
-              Sleep(71);
-            iki_KEY();
-          RightClick();
-            
-        }
-
-//trigger X
-          if(GetAsyncKeyState(0X58)){
-              Sleep(71);
-              UC_KEY();
-              RightClick();
-        }
-        //combo
-         if(GetAsyncKeyState(0X52)){
-              Sleep(71);
-              UC_KEY();
-              RightClick();
-              Sleep(15);
-              one_KEY();
-              LeftClick();
-        }
+        
 
     }
 }
@@ -85,7 +62,7 @@ void D_KEY(){
   
 }
 
-void OLTA_KEY(){
+void uc_KEY(){
             SHORT key;
             UINT mappedkey;
             INPUT input = { 0 };
@@ -116,7 +93,7 @@ void one_KEY(){
   
 }
 
-void UC_KEY(){
+void four_KEY(){
             SHORT key;
             UINT mappedkey;
             INPUT input = { 0 };
