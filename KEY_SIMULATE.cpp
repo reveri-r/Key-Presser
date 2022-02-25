@@ -24,13 +24,8 @@ int main(){
         if(GetAsyncKeyState(0X46)){
 
         }
-
-        
-
     }
 }
-
-
 
 void Q_KEY(){
             SHORT key;
@@ -59,7 +54,6 @@ void D_KEY(){
             SendInput(1, &input, sizeof(input));
             input.ki.dwFlags = KEYEVENTF_SCANCODE | KEYEVENTF_KEYUP;
             SendInput(1, &input, sizeof(input));
-  
 }
 
 void uc_KEY(){
@@ -76,7 +70,6 @@ void uc_KEY(){
             SendInput(1, &input, sizeof(input));
   
 }
-
 
 void one_KEY(){
             SHORT key;
@@ -153,9 +146,6 @@ void A_KEY(){
             input.ki.dwFlags = KEYEVENTF_SCANCODE | KEYEVENTF_KEYUP;
             SendInput(1, &input, sizeof(input));
 }
-
-
-
 
 void RightClick ( ){
         INPUT    Input={0};
