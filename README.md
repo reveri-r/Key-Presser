@@ -1,6 +1,7 @@
 **👾 Usage**
-- Change key whatever you want
+- Just change the sendKeys function in "Gameplay.h"
+- Pressing F starting to functions
 ```cpp
-key = VkKeyScan('q');
+sendKeys('a'); to this sendKeys('x');
 ```
-- Here is the Virtual Key Codes for Trigger: https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+- Here is the Virtual Key Codes: https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
