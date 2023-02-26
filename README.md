@@ -1,6 +1,6 @@
 **👾 Usage**
 - Just change the sendKey function in "Gameplay.h"
-- Pressing F starting to functions
+- Press F to start functions
 ```cpp
 sendKey('a');
 ```
